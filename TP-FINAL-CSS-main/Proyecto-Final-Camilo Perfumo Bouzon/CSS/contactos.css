@@ -1,0 +1,23 @@
+.hero{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right bottom, var(--fondo-1), var(--fondo-2));
+    min-height: 50vh;
+    justify-content: space-between;
+}
+.hero a{
+    color: blueviolet;
+}
+.imghija{
+display: flex;
+justify-content: flex-start;
+margin-left: 10px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.second a{
+    color: rgb(43, 226, 52);
+}
