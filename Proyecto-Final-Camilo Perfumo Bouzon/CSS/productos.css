@@ -1,0 +1,94 @@
+:root{
+    --fondo-1: rgb(250, 161, 28);
+    --fondo-2: rgb(28, 106, 250);
+    --fondo-3: rgb(28, 206, 250);
+    --fondo-4: rgb(250, 72, 28);
+    --fondo-5: rgb(250, 72, 28);
+}
+body{
+    background: linear-gradient(to bottom left, var(--fondo-5), var(--fondo-3));
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+    color: blue;
+}   
+a{
+    color: chocolate;
+    transition: all 5s;
+    text-decoration: none;
+}
+a:hover{
+transform: scale(1.25);
+ color: rgb(225, 0, 255);
+ transform: rotate(360deg);
+}
+
+.mayor{
+    display:flex;
+    justify-content: space-between;
+}
+.mayor1{
+    display: flex;
+    justify-content: flex-end;
+     align-items: center;
+}
+.mayor2{
+    display: flex;
+    justify-content: flex-start;
+     align-items: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+p{
+ text-align: center;
+ text-decoration: yellow underline;
+color: rgb(0, 255, 55);
+}
+footer{
+    display: flex;
+    background:linear-gradient(to bottom left, var(--fondo-3), var(--fondo-4));
+    min-height: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right bottom, var(--fondo-1), var(--fondo-2));
+    min-height: 50vh;
+    justify-content: space-between;
+}
+.hero a{
+    color: blueviolet;
+}
+.imghija{
+display: flex;
+justify-content: flex-start;
+margin-left: 10px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.second a{
+    color: rgb(43, 226, 52);
+}
+.hh2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    margin : 0px, 50%
+}
+.d3{
+text-align: center;
+color: brown;
+}

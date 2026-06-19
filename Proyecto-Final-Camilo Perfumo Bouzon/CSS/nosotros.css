@@ -1,0 +1,58 @@
+:root{
+    --fondo-1: rgb(250, 161, 28);
+    --fondo-2: rgb(28, 106, 250);
+    --fondo-3: rgb(28, 206, 250);
+    --fondo-4: rgb(250, 72, 28);
+    --fondo-7:rgb(2, 82,9);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right bottom, var(--fondo-1), var(--fondo-2));
+    min-height: 50vh;
+    justify-content: space-between;
+}
+.hero a{
+    color: blueviolet;
+}
+.barradenav{
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+margin-right: 10px;
+}
+.imghija{
+display: flex;
+justify-content: flex-start;
+margin-left: 10px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.second a{
+    color: rgb(43, 226, 52);
+}
+body{
+    background: linear-gradient(to left bottom, var(--fondo-7), var(--fondo-3));
+    min-height: 100vh;
+    margin: 0;
+}
+p{
+    text-align: center;
+    text-decoration: blueviolet overline;
+        text-decoration: yellowgreen underline;
+    color: rgba(0, 255, 64, 0.582);
+}
+h1{
+    text-align: center;
+    color: darkgoldenrod;
+}
+footer{
+    display: flex;
+    background:linear-gradient(to bottom left, var(--fondo-3), var(--fondo-4));
+    min-height: 25vh;
+    justify-content: center;
+    align-items: center;
+}
