@@ -12,8 +12,7 @@
     <header class="hero">
         <img height="200px" width="400px" class="imghija" src="./img/Librería img.JPEG"
             alt="Imagen de una librería con una gran cantidad de libros">
-        <nav class="second"><a href="#seccion1">¿Qué somos?</a><a href="#seccion1">Colecciones.</a></nav>
-        <nav class="barradenav"><a href="nosotros.html">Nosotros</a><a href="index.html">Inicio</a><a
+        <nav class="barradenav"><a href="index.html">Inicio</a><a href="nosotros.html">Nosotros<a
                 href="contactos.html">Contactos</a></nav>
     </header>
     <p>
@@ -42,13 +41,19 @@
             <p></p>
             <article>
                 <div><img src="./img/Percy Jackson.png" alt="Saga de Percy Jackson"></div>
-                <p>Serie anterior a las Cronicas antedichas, escrita por el mismo autor (Rick Riordan); y </p>
+                <p>Serie anterior a las Cronicas antedichas, escrita por el mismo autor (Rick Riordan); y segun la mayoría de gente, el nuevo Harry Potter.</p>
             </article>
+            <p></p>
+           <div> <button onclick="pedidoF()">Agregar al carrito</button></div>
+           <p></p>
             <div><img src="./img/shopping-removebg-preview.png" alt="Saga de Harry Potter completa"></div>
             <p>Saga de libros que no necesita presentación, escrita por J.K.Rowling y una de las sagas más largas e
                 inspiradas de "otras novelas" como El señor de los anillos y otros. Aunque a decir verdad, sigue siendo
                 una bella forma de empezar con la lectura de liibros largos</p>
             </article>
+            <p></p>
+           <div> <button onclick="pedidoF()">Agregar al carrito</button></div>
+        <p></p>
         </section>
         <p></p>
         <section id="seccion2">
@@ -63,6 +68,7 @@
                 leída por chicos pequeños sin problemas, tambien es completamente pausible para la lectura de alguien
                 adulto.</p>
             </article>
+                <div><button onclick="pedidoA()">Agregar al carrito</button></div>
             <p></p>
             </article>
             <div><img src="./img/La Ilíada y La Odisea.png" alt="La Ilíada y la Odisea"></div>
@@ -70,6 +76,7 @@
                 escribió entre los años 750 a. C. y 700 a. C.; Una joya traída desde antes de nuestros tiempos modernos,
                 hagase un favor y léalo.</p>
             </article>
+                <div><button onclick="pedidoA()">Agregar al carrito</button></div>
             <p></p>
             </article>
             <div><img src="./img/Victor Hugo Los Miserables.png" alt="Los Miserables de Victor Hugo, 1 y 2."></img>
@@ -81,9 +88,10 @@
                 Valjean es perseguido implacablemente durante décadas por el inspector Javert, un policía rígido que
                 cree que los criminales nunca pueden cambiar.</p>
             </article>
+                <div><button onclick="pedidoA()">Agregar al carrito</button></div>
         </section>
         <section id="seccion3">
-            <p class="d3">Libros de Julio Cortázar/p>
+            <p class="d3">Libros de Julio Cortázar</p>
             <p></p>
             </article>
             <div><img src="./img/Historias de cronopios y de famas.png" alt="Historias de cronopios y de famas."></img>
@@ -94,10 +102,11 @@
                 tambien se da el improbable caso de una duda constante,esperemos puedad disfrutar esta belleza de libro,
                 con agregados cpmp por ej: Como subir una escalera, que son obras de arte en estado puro.</p>
             </article>
+            <button onclick="pedidoJC()">Agregar al carrito</button>
             <p></p>
             </article>
             <div><img src="./img/Las Armas secretas.png" alt="Las armas secretas."></img></div>
-            <p>1. Las armas secretas (El cuento que da título al libro)Sigue a Pierre y Michèle, una joven pareja en el
+            <p>Las armas secretas (El cuento que da título al libro)Sigue a Pierre y Michèle, una joven pareja en el
                 París de posguerra. Tienen una relación extraña porque ella evita la intimidad física. A medida que
                 avanza el relato, Pierre experimenta extraños delirios, pensamientos y hábitos que no siente como
                 propios. El trasfondo fantástico sugiere un desdoblamiento de personalidad o posesión: el alma de un
@@ -105,21 +114,24 @@
                 convirtiendo los traumas del pasado en las "armas secretas" que destruyen el presente... Así como El
                 perseguidor, Cartas de mamá, Las babas del diablo y los buenos servicios.</p>
             </article>
+                <button onclick="pedidoJC()">Agregar al carrito</button>
             <p></p>
             </article>
             <div><img src="./img/Bestiario.png" alt="Bestiario."></img></div>
-            <p>1. Las armas secretas (El cuento que da título al libro)Sigue a Pierre y Michèle, una joven pareja en el
-                París de posguerra. Tienen una relación extraña porque ella evita la intimidad física. A medida que
-                avanza el relato, Pierre experimenta extraños delirios, pensamientos y hábitos que no siente como
-                propios. El trasfondo fantástico sugiere un desdoblamiento de personalidad o posesión: el alma de un
-                soldado alemán que violó a Michèle en el pasado parece apoderarse de Pierre para repetir el crimen,
-                convirtiendo los traumas del pasado en las "armas secretas" que destruyen el presente... Así como El
-                perseguidor, Cartas de mamá, Las babas del diablo y los buenos servicios.</p>
+            <p> Bestiario es el primer libro de cuentos de Julio Cortázar, compuesto por ocho relatos que combinan lo
+                cotidiano con lo sobrenatural y lo absurdo, explorando la psicología de los personajes y la tensión
+                entre lo real y lo fantástico.</p>
             </article>
-            <p></p>
+             <div> <button onclick="pedidoJC()">Agregar al carrito</button></div>
+                 <p></p>
+                <div><button onclick="pedidoCompleto()">Ver Total de la Compra</button></div>
+                <p></p>
+                  <div class="ccc"><p id="salida"></p></div>
+                 
         </section>
     </main>
     <footer>® Camilo Perfumo Bouzon 4to 4ta CET 30</footer>
 </body>
 
+<script src="pedidos.JS"></script>
 </html>

@@ -15,6 +15,11 @@
 .hero a{
     color: blueviolet;
 }
+a:hover{
+transform: scale(1.25);
+ color: rgb(0, 255, 42);
+ transform: rotate(360deg);
+}
 .barradenav{
 display: flex;
 justify-content: flex-end;

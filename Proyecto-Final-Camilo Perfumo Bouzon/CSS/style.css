@@ -74,3 +74,14 @@ div{
   border-radius: 8px; /* Bordes suavemente redondeados */
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12); /* Sombra elegante que destaca el contenido */
 }
+footer{
+    display: flex;
+    background:linear-gradient(to bottom left, var(--fondo-3), var(--fondo-4));
+    min-height: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+.ccc{
+    background-color: aqua;
+    color: rgb(255, 0, 153);
+}

@@ -13,7 +13,13 @@
     justify-content: space-between;
 }
 .hero a{
-    color: blueviolet;
+    color: rgb(83, 226, 43);
+    transition: all 5s;
+}
+a:hover{
+transform: scale(1.25);
+ color: rgb(225, 0, 255);
+ transform: rotate(360deg);
 }
 body{
     background: linear-gradient(to bottom right, var(--fondo-7), var(--fondo-4));
@@ -41,6 +47,12 @@ margin-left: 10px;
     margin: auto;
     padding: auto;
     text-align: center;
+}
+.barradenav{
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+margin-right: 10px;
 }
 footer{
     display: flex;
