@@ -93,5 +93,12 @@ text-align: center;
 color: brown;
 }
 button{
-    justify-content: center;
+    border-radius: 100px;
+    box-shadow: 2px 2px rgb(114, 184, 250);
+    background-color: aqua;
+    color: brown;
+}
+.lle{
+    display: flex;
+    justify-content: space-around;
 }
